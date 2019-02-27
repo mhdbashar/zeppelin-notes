@@ -1,0 +1,75 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\nping 8.8.8.8",
+      "user": "admin",
+      "dateUpdated": "Feb 27, 2019 3:32:39 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "INCOMPLETE",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n64 bytes from 8.8.8.8: icmp_seq\u003d3 ttl\u003d113 time\u003d70.2 ms\n64 bytes from 8.8.8.8: icmp_seq\u003d4 ttl\u003d113 time\u003d69.1 ms\n64 bytes from 8.8.8.8: icmp_seq\u003d5 ttl\u003d113 time\u003d63.4 ms\n64 bytes from 8.8.8.8: icmp_seq\u003d6 ttl\u003d113 time\u003d65.6 ms\n64 bytes from 8.8.8.8: icmp_seq\u003d7 ttl\u003d113 time\u003d62.6 ms\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Paragraph received a SIGTERM\nExitValue: 143"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1551256350031_-1069511528",
+      "id": "20190227-033230_1698473570",
+      "dateCreated": "Feb 27, 2019 3:32:30 AM",
+      "dateStarted": "Feb 27, 2019 3:32:39 AM",
+      "dateFinished": "Feb 27, 2019 3:32:47 AM",
+      "status": "ABORT",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n",
+      "user": "admin",
+      "dateUpdated": "Feb 27, 2019 3:32:39 AM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1551256359849_1120879285",
+      "id": "20190227-033239_1264072318",
+      "dateCreated": "Feb 27, 2019 3:32:39 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "First note",
+  "id": "2E6WEM527",
+  "angularObjects": {
+    "2CHS8UYQQ:shared_process": [],
+    "2CKX6DGQZ:shared_process": [],
+    "2C8A4SZ9T_livy2:shared_process": [],
+    "2CK8A9MEG:shared_process": [],
+    "2DPSGX8CA:shared_process": [],
+    "2C4U48MY3_spark2:shared_process": [],
+    "2CKX8WPU1:shared_process": [],
+    "2CKAY1A8Y:shared_process": [],
+    "2CKEKWY8Z:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
